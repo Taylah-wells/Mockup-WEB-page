@@ -1,46 +1,63 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    color: whitesmoke;
-    background: burlywood;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:white;
 }
-header div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 4rem;
-}
-header div i {
-    font-size: 5rem;
-    margin: 1rem;
-}
-header nav {
-    padding: 2rem 3rem;
-}
-nav ul li {
-    list-style: none;
-    display: inline;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding: 2px;
 
+ul {
+    list-style: none;
+    text-align: center;
 }
-nav li a{
-    padding: 1rem;
-    margin: 1rem;
+
+li  {
+    display: inline-block;
+}
+/* li a.active {
+    background-color: #4CAF50;          Code to the left makes the nav bar change color when mouse is hovered over
+    color: white;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } */
+
+a {
     text-decoration: none;
     color: white;
-    transition: all 250ms ease-in;
+    display: block;
+    padding: 1rem;
 }
-nav li a:hover{
-    background: grey;
-    color: black;
 
-}
-#footer {
+nav {
+    display: block;
     background-color: black;
+    border-bottom: 1px solid gray;
     width: 100%;
     height: 50px;
+    position: fixed;
+}
+
+.box {
+    height: 1000px;
+    border-bottom: 1px solid gray;
+    padding-top: 50px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Home{
+    background-color: whitesmoke;
+
+}
+
+#About{
+    background-color: whitesmoke;
+
+}
+
+#Experience{
+    background-color: whitesmoke;
 }
