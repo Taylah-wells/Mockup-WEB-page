@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: black;
+    color:white;
 }
 
 ul {
@@ -10,14 +10,54 @@ ul {
     text-align: center;
 }
 
-li {
+li  {
     display: inline-block;
 }
+/* li a.active {
+    background-color: #4CAF50;          Code to the left makes the nav bar change color when mouse is hovered over
+    color: white;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } */
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
     padding: 1rem;
 }
 
+nav {
+    display: block;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+.box {
+    height: 1000px;
+    border-bottom: 1px solid gray;
+    padding-top: 50px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Home{
+    background-color: whitesmoke;
+
+}
+
+#About{
+    background-color: whitesmoke;
+
+}
+
+#Experience{
+    background-color: whitesmoke;
+}
